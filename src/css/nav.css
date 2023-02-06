@@ -68,7 +68,7 @@ html.is-clipped--nav {
   overflow-y: scroll;
   overscroll-behavior: none;
   height: var(--nav-panel-menu-height);
-  color: var(--color-white)
+  color: var(--color-white);
 }
 
 .nav-panel-menu:not(.is-active) .nav-menu {
