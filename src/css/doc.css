@@ -359,6 +359,7 @@
   background: var(--admonition-background);
   width: 100%;
   word-wrap: anywhere;
+  border-radius: 5px;
 }
 
 .doc .admonitionblock .icon {
@@ -750,6 +751,7 @@
   display: block;
   overflow-x: auto;
   padding: 0.875em;
+  border-radius: 5px;
 }
 
 .doc .listingblock > .content {
