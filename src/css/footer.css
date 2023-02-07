@@ -4,6 +4,9 @@ footer.footer {
   font-size: calc(15 / var(--rem-base) * 1rem);
   line-height: var(--footer-line-height);
   padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .footer p {
@@ -18,4 +21,5 @@ footer.footer {
 .footer-content-bite {
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 0.75rem;
 }
