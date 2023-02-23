@@ -21,15 +21,15 @@
   --color-gray-dark: #212121;
   /* fonts */
   --rem-base: 18; /* used to compute rem value from desired pixel value (e.g., calc(18 / var(--rem-base) * 1rem) = 18px) */
-  --body-font-size: 1.0625em; /* 17px */
-  --body-font-size--desktop: 1.125em; /* 18px */
+  --body-font-size: 0.97em; /* 17px */
+  --body-font-size--desktop: 0.97em; /* 18px */
   --body-font-size--print: 0.9375em; /* 15px */
   --body-line-height: 1.15;
   --body-font-color: var(--color-jet-70);
   --body-font-family: "Roboto", sans-serif;
-  --body-font-weight-bold: 500;
+  --body-font-weight-bold: 600;
   --monospace-font-family: "Roboto Mono", monospace;
-  --monospace-font-weight-bold: 500;
+  --monospace-font-weight-bold: 600;
   /* base */
   --body-background: var(--color-white);
   --panel-background: rgb(16, 16, 16);
@@ -77,7 +77,7 @@
   /* doc */
   --doc-font-color: var(--color-jet-50);
   --doc-font-size: inherit;
-  --doc-font-size--desktop: calc(17 / var(--rem-base) * 1rem);
+  --doc-font-size--desktop: calc(18 / var(--rem-base) * 1rem);
   --doc-line-height: 1.6;
   --doc-margin: 0 auto;
   --doc-margin--desktop: 0 2rem;

@@ -28,7 +28,7 @@
   font-weight: var(--heading-font-weight);
   hyphens: none;
   line-height: 1.3;
-  margin: 1rem 0 0;
+  margin: 1.2rem 0 0;
 }
 
 .doc > h1.page:first-child {
@@ -602,7 +602,7 @@
 
 .doc .olist li + li,
 .doc .ulist li + li {
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .doc .ulist .listingblock,
@@ -853,11 +853,12 @@
 }
 
 .doc .dlist dt {
-  font-style: italic;
+  font-family: var(--monospace-font-family);
+  font-weight: bold;
 }
 
 .doc .dlist dd {
-  margin: 0 0 0.25rem 1.5rem;
+  margin: 0 0 0.7rem 1.5rem;
 }
 
 .doc .dlist dd:last-of-type {

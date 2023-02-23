@@ -33,3 +33,33 @@
     flex-basis: var(--toc-width--widescreen);
   }
 }
+
+main h1 {
+  font-size: 2.2em;
+}
+
+main h2 {
+  font-size: 2em;
+}
+
+main h3 {
+  font-size: 1.8em;
+  font-weight: normal !important;
+}
+
+main h4 {
+  font-size: 1.5em;
+  font-weight: normal !important;
+  margin-bottom: -8px !important;
+}
+
+main h5 {
+  font-size: 1.3em;
+  margin-bottom: -8px !important;
+}
+
+main h6 {
+  font-size: 1.1em;
+  font-weight: bold !important;
+  margin-bottom: -8px !important;
+}
