@@ -38,7 +38,7 @@
   --scrollbar-thumb-color: var(--color-gray-10);
   --scrollbar_hover-thumb-color: var(--color-gray-30);
   /* navbar */
-  --navbar-background: var(--color-black);
+  --navbar-background: var(--panel-background);
   --navbar-font-color: var(--color-white);
   --navbar_hover-background: var(--color-green);
   --navbar-button-background: var(--color-white);
@@ -49,7 +49,7 @@
   --navbar-menu-font-color: var(--color-white);
   --navbar-menu_hover-background: var(--color-smoke-50);
   /* nav */
-  --nav-background: var(--panel-background);
+  --nav-background: var(--color-gray-dark);
   --nav-border-color: var(--color-gray-10);
   --nav-line-height: 1.35;
   --nav-heading-font-color: var(--color-white);
