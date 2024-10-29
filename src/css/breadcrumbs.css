@@ -14,6 +14,7 @@
   font-size: 15px;
   letter-spacing: 0.05rem;
   margin-top: 60px;
+  color: #9d9d9e;
 }
 
 @media screen and (min-width: 1024px) {
@@ -62,10 +63,6 @@ a + .breadcrumbs {
   color: #636363 !important;
 }
 
-.breadcrumbs-article {
-  color: #9d9d9e;
-}
-
 .breadcrumbs li::after,
 .breadcrumbs-article li::after {
   content: "/";
@@ -73,6 +70,6 @@ a + .breadcrumbs {
 }
 
 .breadcrumbs li:last-of-type::after,
-.breadcrumbs-article li:last-of-type::after{
+.breadcrumbs-article li:last-of-type::after {
   content: none;
 }

@@ -123,7 +123,7 @@
     var expectedHeight = window.innerHeight - Math.round(bounds.top)
     if (Math.round(bounds.height) !== expectedHeight) nav.style.height = expectedHeight + 'px'
     html.addEventListener('click', hideNav)
-    document.getElementById('overlay').style.display = 'block';
+    document.getElementById('overlay').style.display = 'block'
   }
 
   function hideNav (e) {
@@ -133,7 +133,7 @@
     navToggle.classList.remove('is-active')
     navContainer.classList.remove('is-active')
     html.removeEventListener('click', hideNav)
-    document.getElementById('overlay').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none'
   }
 
   function trapEvent (e) {

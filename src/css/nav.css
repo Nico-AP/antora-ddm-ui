@@ -171,7 +171,7 @@ html.is-clipped--nav {
 
 .nav-item.is-current-page {
   /* font-weight: var(--body-font-weight-bold); */
-  background: var(  --color-green) !important;
+  background: var(--color-green) !important;
   color: white;
 }
 
@@ -290,7 +290,7 @@ html.is-clipped--nav {
   left: var(--nav-width);
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 3;
   cursor: pointer;
 }
