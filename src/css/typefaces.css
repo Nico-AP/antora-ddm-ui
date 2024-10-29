@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "BaiJamjuree";
+  font-weight: normal;
+  src: url(../fonts/BaiJamjuree-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "BaiJamjuree";
+  font-weight: 550;
+  src: url(../fonts/BaiJamjuree-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "BaiJamjuree";
+  font-weight: bold;
+  src: url(../fonts/BaiJamjuree-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  src: url(../fonts/Inter-VariableFont.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  src: url(../fonts/Inter-Italic-VariableFont.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url(../fonts/FiraCode-Variable.ttf) format("truetype");
+}

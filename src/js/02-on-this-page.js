@@ -39,9 +39,9 @@
   var menu = sidebar.querySelector('.toc-menu')
   if (!menu) (menu = document.createElement('div')).className = 'toc-menu'
 
-  var title = document.createElement('h3')
-  title.textContent = sidebar.dataset.title || 'Contents'
-  menu.appendChild(title)
+  // var title = document.createElement('h3')
+  // title.textContent = sidebar.dataset.title || 'Contents'
+  // menu.appendChild(title)
   menu.appendChild(list)
 
   var startOfContent = !document.getElementById('toc') && article.querySelector('h1.page ~ :not(.is-before-toc)')

@@ -1,7 +1,8 @@
 <article class="doc">
-{{#with page.title}}
-<h1 class="page">{{{this}}}</h1>
-{{/with}}
-{{{page.contents}}}
-{{> pagination}}
+  {{> breadcrumbs_v2 }}
+  {{#with page.title}}
+  <h1 class="page">{{{this}}}</h1>
+  {{/with}}
+  {{{page.contents}}}
+  {{> pagination}}
 </article>

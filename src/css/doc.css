@@ -6,6 +6,7 @@
   margin: var(--doc-margin);
   max-width: var(--doc-max-width);
   padding: 0 1rem 4rem;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 @media screen and (min-width: 1024px) {
@@ -13,6 +14,7 @@
     flex: auto;
     font-size: var(--doc-font-size--desktop);
     margin: var(--doc-margin--desktop);
+    margin-right: 120px;
     max-width: var(--doc-max-width--desktop);
     min-width: 0;
   }
@@ -32,14 +34,33 @@
 }
 
 .doc > h1.page:first-child {
-  font-size: calc(36 / var(--rem-base) * 1rem);
+  font-size: calc(48 / var(--rem-base) * 1rem);
   margin: 1.5rem 0;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 769px) {
   .doc > h1.page:first-child {
-    margin-top: 2.5rem;
+    margin-top: 8rem;
   }
+}
+
+.doc h2 {
+  font-weight: 500;
+  margin-top: 3rem;
+}
+
+.doc h3,
+.doc h4 {
+  margin-top: 2.5rem;
+}
+
+.doc h5 {
+  margin-top: 2.25rem;
+}
+
+.doc h6 {
+  margin-top: 2rem;
 }
 
 .doc > h1.page:first-child + aside.toc.embedded {
@@ -56,14 +77,12 @@
 }
 
 .doc h1.sect0 {
-  background: var(--abstract-background);
   font-size: 1.8em;
   margin: 1.5rem -1rem 0;
   padding: 0.5rem 1rem;
 }
 
 .doc h2:not(.discrete) {
-  border-bottom: 1px solid var(--section-divider-color);
   margin-left: -1rem;
   margin-right: -1rem;
   padding: 0.4rem 1rem 0.1rem;
@@ -82,12 +101,13 @@
 .doc h6 .anchor {
   position: absolute;
   text-decoration: none;
-  width: 1.75ex;
-  margin-left: -1.5ex;
+  width: 3ex;
+  margin-left: -2.8ex;
   visibility: hidden;
-  font-size: 0.8em;
+  font-size: 0.65em;
+  opacity: 0.6;
   font-weight: normal;
-  padding-top: 0.05em;
+  padding-top: 0.3em;
 }
 
 .doc h1 .anchor::before,
@@ -96,7 +116,8 @@
 .doc h4 .anchor::before,
 .doc h5 .anchor::before,
 .doc h6 .anchor::before {
-  content: "\00a7";
+  content: "🔗";
+  color: black;
 }
 
 .doc h1:hover .anchor,
@@ -214,7 +235,7 @@
 .doc .partintro,
 .doc details,
 .doc hr {
-  margin: 1rem 0 0;
+  margin: 1rem 0 1.5rem;
 }
 
 .doc table.tableblock {
@@ -331,7 +352,11 @@
 }
 
 .doc .admonitionblock {
-  margin: 1.4rem 0 0;
+  margin: 2rem 0 1.5rem;
+}
+
+.doc .admonitionblock :is(.paragraph):last-of-type {
+  margin-bottom: 0;
 }
 
 .doc .admonitionblock p,
@@ -600,6 +625,10 @@
   margin-top: 0.5rem;
 }
 
+.doc .dlist :is(.paragraph) {
+  margin-top: 0.5rem;
+}
+
 .doc .olist li + li,
 .doc .ulist li + li {
   margin-top: 0.25rem;
@@ -699,12 +728,19 @@
   margin-left: -1rem;
 }
 
+.doc .exampleblock {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .doc .exampleblock > .content,
 .doc details.result > .content {
-  background: var(--example-background);
-  border: 0.25rem solid var(--example-border-color);
-  border-radius: 0.5rem;
-  padding: 0.75rem;
+  border: 1px solid var(--color-gray-10);
+  padding: 1rem 1.6rem;
+}
+
+.doc .exampleblock :is(.paragraph):last-of-type {
+  margin-bottom: 0;
 }
 
 .doc .exampleblock > .content::after,
@@ -854,15 +890,23 @@
 
 .doc .dlist dt {
   font-family: var(--monospace-font-family);
-  font-weight: bold;
+  font-weight: 500;
+  border-left: 2px solid var(--color-gray-10);
+  padding-left: 10px;
+}
+
+.doc .dlist dl {
+  padding-left: 1rem;
 }
 
 .doc .dlist dd {
-  margin: 0 0 0.7rem 1.5rem;
+  margin: 0 0 2rem 0;
+  border-left: 2px solid var(--color-gray-10);
+  padding-left: 10px;
 }
 
 .doc .dlist dd:last-of-type {
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 .doc td.hdlist1,
@@ -1027,4 +1071,8 @@
   margin-left: -2em;
   text-align: right;
   width: 1.5em;
+}
+
+.tablewrap {
+  overflow-x: auto;
 }

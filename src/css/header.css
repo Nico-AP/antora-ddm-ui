@@ -15,6 +15,7 @@ body {
   top: 0;
   width: 100%;
   z-index: var(--z-index-navbar);
+  box-shadow: -10vw 2px #d36a45, 10vw 4px #fff, 0px 3px #c6c6c678, 10vw 6px #009c94, 10vw 7px #c6c6c678;
 }
 
 .navbar a {
@@ -24,9 +25,8 @@ body {
 .navbar-brand {
   display: flex;
   flex: auto;
-  padding-left: 1rem;
-  align-items: end;
-  padding-bottom: 6px;
+  padding-left: 1.5rem;
+  align-items: center;
 }
 
 .navbar-brand .navbar-item {
@@ -56,9 +56,9 @@ body {
 }
 
 .navbar-slogan {
-  padding-bottom: 8px;
-  padding-left: 10px;
-  font-weight: bold;
+  padding-left: 30px;
+  font-weight: 550;
+  font-family: "BaiJamjuree", Calibri, Tahoma, sans-serif;;
 }
 
 #search-input {
