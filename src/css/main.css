@@ -63,3 +63,11 @@ main h5 {
 main h6 {
   font-size: 1.1em;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.small {
+  font-size: 0.8rem;
+}

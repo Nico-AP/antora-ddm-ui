@@ -119,11 +119,20 @@ html.is-clipped--nav {
 
 .nav-item {
   background: white;
+  color: black;
 }
 
 /* adds some breathing room below a nested list */
 .nav-item-toggle ~ .nav-list {
-  padding-bottom: 0.125rem;
+  margin-bottom: 0.125rem;
+}
+
+.nav-item-toggle-level-2 {
+  margin-left: 25px !important;
+}
+
+.nav-item-toggle-level-3 {
+  margin-left: 45px !important;
 }
 
 .nav-link,
@@ -134,12 +143,19 @@ html.is-clipped--nav {
   padding-bottom: 0.5em;
 }
 
-.nav-link-2 {
+.nav-link-2,
+.nav-text-2 {
   padding-left: 50px;
 }
 
-.nav-link-3 {
+.nav-link-3,
+.nav-text-3 {
   padding-left: 70px;
+}
+
+.nav-link-4,
+.nav-text-4 {
+  padding-left: 90px;
 }
 
 /* matches list without a title */
