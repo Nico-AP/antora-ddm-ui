@@ -67,7 +67,7 @@ page:
     private: false
   previous:
     content: Quickstart
-    url: '#'
+    url: some.html
     urlType: 'internal'
   next:
     content: Liber Recusabo
@@ -75,7 +75,7 @@ page:
     urlType: 'internal'
   breadcrumbs:
   - content: Quickstart
-    url: '#'
+    url: some.html
     urlType: fragment
   - content: Brand&#8217;s Hardware &amp; Software Requirements
     url: /xyz/5.2/index.html
@@ -98,8 +98,8 @@ page:
   - root: true
     items:
     - content: Quickstart
-      url: '#'
-      urlType: fragment
+      url: some.html
+      urlType: internal
       items:
       - content: Brand&#8217;s Hardware &amp; Software Requirements
         url: /xyz/5.2/index.html
@@ -111,7 +111,7 @@ page:
         url: '/xyz/5.2/index.html#english+中文'
         urlType: internal
     - content: Liber Recusabo
-      url: '#liber-recusabo'
+      url: some.html
       urlType: fragment
     - content: Reference
       items:

@@ -24,6 +24,10 @@ Mauris eget leo nunc, nec tempus mi? Curabitur id nisl mi, ut vulputate urna.
 
 Header test:
 
+[.text-center]
+.Figure Caption
+image::project_hub.png["Figure Caption", 60%]
+
 == Header level 2
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Mauris eget leo nunc, nec tempus mi? Curabitur id nisl mi, ut vulputate urna.

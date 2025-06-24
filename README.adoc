@@ -9,6 +9,14 @@ It is based on the https://gitlab.com/antora/antora-ui-default/[Antora Default U
 further explanations on how to alter and deploy this project.
 
 
+== Preview
+
+To see a preview of the project, run `gulp preview`.
+
+== Package for Use with Antora
+
+To package the project to use with Antora (i.e., create a new version of bundle/ui-bundle.zip), run `gulp bundle`.
+
 == Copyright and License
 
 Use of this software is granted under the terms of the https://www.mozilla.org/en-US/MPL/2.0/[Mozilla Public License Version 2.0] (MPL-2.0).
